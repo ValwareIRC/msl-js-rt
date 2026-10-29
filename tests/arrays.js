@@ -1,0 +1,28 @@
+// array methods
+const a = [5, 1, 4, 2, 3];
+console.log(a.length, a[0], a[a.length - 1], a.at(-2), a.indexOf(4), a.includes(9));
+console.log(a.map(x => x * 2), a.filter(x => x % 2), a.reduce((s, x) => s + x, 0));
+console.log([...a].sort(), [...a].sort((x, y) => y - x), a);
+console.log(["b", "a", "C", "10", "9"].sort(), [10, 9, 1, 100].sort());
+console.log(a.find(x => x > 3), a.findIndex(x => x > 3), a.findLast(x => x > 3), a.some(x => x > 4), a.every(x => x > 0));
+const b = [1, 2, 3, 4, 5];
+console.log(b.slice(1, 3), b.slice(-2), b.splice(1, 2, "x", "y", "z"), b);
+console.log(b.push(6), b.pop(), b.shift(), b.unshift(0), b);
+console.log([1, [2, [3, [4]]]].flat(), [1, [2, [3, [4]]]].flat(Infinity), [1, 2].flatMap(x => [x, x * 10]));
+console.log([1, 2, 3].join("-"), [1, 2, 3].reverse(), [].concat([1], 2, [3, [4]]));
+console.log(Array.from({ length: 3 }, (_, i) => i * i), Array.of(7, 8), Array.isArray([]), Array.from("abc"));
+console.log(new Array(3).fill(0), [...[1, 2, 3].keys()], [...[..."hi"].entries()]);
+const sparse = [1, , 3];
+console.log(sparse, sparse.length);
+const big = Array.from({ length: 30 }, (_, i) => i);
+console.log(big);
+const arr = [1, 2, 3];
+arr.length = 1;
+console.log(arr, [3, 1, 2].toSorted(), [1, 2, 3].toReversed());
+let total = 0;
+for (const v of [10, 20, 30]) total += v;
+for (const [i, v] of ["a", "b"].entries()) total += i;
+console.log(total);
+const words = ["apple", "Banana", "cherry"];
+console.log(words.map((w, i) => `${i}:${w}`).join(", "));
+console.log([3, 1, 2].sort().map(String), [0, -0, NaN].includes(NaN), [NaN].indexOf(NaN));

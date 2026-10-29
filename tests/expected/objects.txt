@@ -1,0 +1,32 @@
+{
+  a: 1,
+  b: 2,
+  c: 3,
+  dynamic: true,
+  shorthand: [Function: shorthand],
+  'quoted key': 4
+}
+6 true m 4
+1 2 dflt {
+  c: 3,
+  dynamic: true,
+  shorthand: [Function: shorthand],
+  'quoted key': 4
+}
+1 t [ 4, 5 ]
+2 1
+found
+200 40
+77
+100
+true false true false
+hi from proto [ 'own' ] true false
+[ 'own', 'hello' ]
+[ [ 'x', 1 ], [ 'y', 2 ] ] [ 1, 2 ]
+{ p: 1, q: 2 } { r: 1, s: 2 }
+1 true
+lower Upper caps [ 'name', 'Name', 'NAME' ]
+{
+  level1: { level2: { level3: [Object] } },
+  arr: [ 1, [ 2, [Array] ] ]
+}

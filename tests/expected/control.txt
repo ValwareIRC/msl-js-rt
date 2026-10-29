@@ -1,0 +1,18 @@
+A B C
+one,two two string three default
+6 7
+00 01 10 11 20 21
+[ 'try', 'caught RangeError: bad range', 'finally' ]
+finally runs before return
+from try
+true Cannot read properties of null (reading 'prop')
+ReferenceError undefinedFunction is not defined
+TypeError Assignment to constant variable.
+destructured catch true
+inner finally
+outer caught inner
+[ 1, 3, 4 ]
+4
+a 1
+b 2
+[ 1, 'two', 3 ]

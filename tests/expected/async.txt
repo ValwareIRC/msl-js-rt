@@ -1,0 +1,14 @@
+start
+end
+then 1
+microtask
+resolved
+caught nope
+chained resolved!
+all [ 1, 2, 3 ]
+fulfilled,rejected
+race first
+finally
+timeout 0
+interval
+timeout 20

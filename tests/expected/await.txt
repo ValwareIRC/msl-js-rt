@@ -1,0 +1,6 @@
+x 3
+y 10
+caught TypeError async failure
+all [ 2, 'v', 3 ]
+arrow 42
+main done

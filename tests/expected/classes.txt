@@ -1,0 +1,11 @@
+generic makes a sound | Rex makes a sound - woof | tweet
+generic (4 legs) | Rex (4 legs) [dog] | Tweety (2 legs)
+REXY hidden 3 Animal<Rex> Animal<Tweety>
+true true false true
+function Dog Dog [ 'legs', 'name', 'breed', 'nick' ]
+Dog { legs: 4, name: 'Rex', breed: 'lab', nick: 'REXY' }
+4 3
+true true ValidationError email is invalid ValidationError: is invalid
+mixed Tom
+TypeError Class constructor Animal cannot be invoked without 'new'
+2

@@ -1,0 +1,29 @@
+{"name":"msl","tags":["js","irc"],"nested":{"ok":true,"n":null}}
+{
+  "name": "msl",
+  "tags": [
+    "js",
+    "irc"
+  ],
+  "nested": {
+    "ok": true,
+    "n": null
+  }
+}
+{ a: [ 1, 2, { b: 'c' } ], d: -1.5, e: true, f: null, g: 'A\n' } 2
+["1970-01-01T00:00:00.000Z","s",1,false,null] "custom"
+SyntaxError
+5 -2 7 -3 3 3 -2
+-4 -1 4 256 5 3
+true 3.1416 2.72
+1234.57 1 ff 11111111 1
+9007199254740991 false 1.5 1,234,567.891
+2 10 false [ 'a', 'c' ] [ 10, 3 ] Map(2) { 'a' => 10, 'c' => 3 }
+object key undefined
+4 true [ 1, 2, 3, 4 ] Set(4) { 1, 2, 3, 4 }
+[ 'the', 3 ]
+13 4
+2024-01-15T12:30:45.123Z 1705321845123 {"when":"2024-01-15T12:30:45.123Z"}
+2020-02-29T00:00:00.000Z number true
+16 0 42 0 NaN 5
+123 321 false true

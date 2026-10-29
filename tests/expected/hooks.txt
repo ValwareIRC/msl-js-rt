@@ -1,0 +1,12 @@
+identifier: 42
+command got [ 'hello', 'there', 'irc' ]
+args: a b+c+d
+value from js | value from js
+undefined
+stored stored
+undefined
+[ 'ping: one,2', 'pingpong: ' ]
+42 6 string
+EVALUATED
+mIRC error caught: true
+after unalias: ""

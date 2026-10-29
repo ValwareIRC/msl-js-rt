@@ -1,0 +1,17 @@
+7 9 1 -1 1024 2.5
+a12 3a 10 3 42 -3
+number string boolean undefined object object object function
+Infinity -Infinity NaN true true false
+true true true true false true false false
+default yes fallback 0 true true
+1 7 6 -6 16 -4 15
+8
+set!
+0 1 2 2 0
+multi
+line 2 and nested 6
+undefined undefined
+42 undefined undefined 42
+3  1,2 null 1,2,3
+0.75 1000 0.0015 31 15 5 1000000
+42 255 3.25 12.5 NaN
